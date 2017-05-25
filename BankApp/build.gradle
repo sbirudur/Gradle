@@ -1,0 +1,23 @@
+
+apply plugin: 'java'
+group='BankApp'
+version='0.0.1-SNAPSHOT'
+
+description='My First Application'
+
+sourceCompatibility=1.8
+targetCompatibility=1.8
+
+repositories {
+   maven{
+   url "http://repo.maven.apache.org.maven2"
+   }
+}
+
+dependencies{
+	testCompile 'junit:junit:4.12'
+	Compile 'org.mockito:mockito-all:1.10.19'
+
+
+}
+
